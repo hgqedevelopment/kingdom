@@ -1,0 +1,27 @@
+name: KingdomPlugin
+main: com.rukluf.kingdom.KingdomPlugin
+version: 1.0
+api-version: 1.12
+author: HGQE - Valentino
+description: Professionele kingdom plugin met ranks, oorlog, homes en chat
+
+commands:
+  kingdom:
+    description: Beheer jouw kingdom
+    usage: /kingdom <args>
+    permission: kingdom.use
+
+permissions:
+  kingdom.use:
+    default: true
+  kingdom.admin:
+    description: Beheer andere spelers in kingdoms
+    default: op
+  kingdom.rank.koning:
+    default: op
+  kingdom.rank.generaal:
+    default: false
+  kingdom.rank.ridder:
+    default: false
+  kingdom.rank.soldaat:
+    default: true

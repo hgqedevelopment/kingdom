@@ -1,0 +1,42 @@
+# ====================================================
+#              KingdomPlugin Configuratie
+# ====================================================
+# ✅ Gemaakt door: Routers_OS - Valentino
+# 📌 Discord: hgqe_development
+# 💼 Plugin voor: VortexKingdom
+# 🚫 Heruploaden/kopiëren is verboden
+# ====================================================
+
+scoreboard:
+  title: "&c&lInformatie"
+  lines:
+    - "&fChatkanaal"
+    - "&b%kingdom%"
+    - "&f"
+    - "&fInfluence"
+    - "&e%influence%"
+    - "&f"
+    - "&fOorlog?"
+    - "&7%oorlog%"
+    - "&f"
+    - "&fLocatie"
+    - "&7%locatie%"
+    - "&f"
+    - "&7vortexkingdom.com"
+
+ranks:
+  default: "Soldaat"
+  rank-permissions:
+    "kingdom.rank.koning": "Koning"
+    "kingdom.rank.generaal": "Generaal"
+    "kingdom.rank.ridder": "Ridder"
+    "kingdom.rank.soldaat": "Soldaat"
+
+info:
+  version: "1.0"
+  author: "HGQE - Valentino"
+  contact: "Discord: hgqe_development"
+  copyright:
+    - "Plugin ontwikkeld door HGQE - Valentino"
+    - "Voor: VortexKingdom"
+    - "Alle rechten voorbehouden ©"

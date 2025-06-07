@@ -1,0 +1,6 @@
+com\rukluf\kingdom\scoreboard\KingdomScoreboard.class
+com\rukluf\kingdom\core\KingdomManager.class
+com\rukluf\kingdom\KingdomPlugin.class
+com\rukluf\kingdom\listeners\JoinListener.class
+com\rukluf\kingdom\commands\KingdomCommand.class
+com\rukluf\kingdom\listeners\ChatListener.class
